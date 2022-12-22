@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements CategoryAdapter.C
         category.setAdapter(categoryAdapter);
         getCategories();//Getting the picked category
         getNews("All");//Fetching all the News
-        newsAdapter.notifyDataSetChanged(); //Notify the Adapter that the Data has been changed
+        newsAdapter.notifyDataSetChanged();  //Notify the Adapter that the Data has been changed
 
 
 
